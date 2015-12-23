@@ -22,7 +22,7 @@ body {
 }
 
  h1 {
-  font: 45pt Helvetica-Light, Arial, sans-serif;
+  font: 40pt Helvetica-Light, Arial, sans-serif;
   color: #2C3E50;
   font-weight: lighter;
   text-align: center;
@@ -133,7 +133,7 @@ table {
 }
 
 .site .footer {
-  font-size: 100%;
+  font-size: 90%;
   color: #666;
   text-align: center;
   border-top: 1px solid #eee;
@@ -148,7 +148,7 @@ table {
 }
 
 .site .footer .contact p {
-  font-size: 12pt;
+  font-size: 14pt;
   display: inline-block;
   padding-top: 2em;
 }
@@ -204,7 +204,7 @@ table {
 }
 
 #marin_usalj_home {
-  font-size: 34pt;
+  font-size: 32pt;
   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: lighter;
   line-height: 1;
