@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>linkedin_purple</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Home-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Header" sketch:type="MSLayerGroup" transform="translate(-524.000000, -152.000000)">
+            <g id="social_round" transform="translate(373.000000, 152.000000)" sketch:type="MSShapeGroup">
+                <g id="LinkedIN" transform="translate(151.000000, 0.000000)">
+                    <path d="M0,27.5 C0,12.3121686 12.3121686,0 27.5,0 C42.6878314,0 55,12.3121686 55,27.5 C55,42.6878314 42.6878314,55 27.5,55 C12.3121686,55 0,42.6878314 0,27.5 Z" fill="#9B59B6"></path>
+                    <path d="M20,22 L14,22 L14,41 L20,41 L20,22 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M21,16.9989629 C20.9596151,15.2966121 19.6487849,14 17.5201924,14 C15.3916,14 14,15.2966121 14,16.9989629 C14,18.6660521 15.3504695,20 17.4394227,20 L17.4791863,20 C19.6487849,20 21,18.6660521 21,16.9989629 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M42,30.3557074 C42,24.6537731 39.0912742,22 35.211364,22 C32.080919,22 30.679366,23.8017911 29.8968136,25.06578 L29.8968136,22.4364021 L24,22.4364021 C24.0777136,24.1783141 24,41 24,41 L29.8968136,41 L29.8968136,30.6325554 C29.8968136,30.0777506 29.9350817,29.5243011 30.0909799,29.1270791 C30.5171094,28.0187016 31.4873519,26.8711441 33.116276,26.8711441 C35.2506918,26.8711441 36.1038929,28.5733832 36.1038929,31.0679718 L36.1038929,40.9995072 L41.9997645,40.9995072 L42,30.3557074 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

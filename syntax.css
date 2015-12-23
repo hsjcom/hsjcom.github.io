@@ -1,0 +1,68 @@
+p code {
+  background-color: #FFFCD6;
+}
+
+pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.gutter        { color: #dddddd; padding-right: .6em; }
+
+figure .highlight { padding: 1em 0; overflow-y:hidden; overflow-x:auto; }
+figure .highlight span { font: 10pt "Monaco", "Inconsolata", "Menlo", "FreeMono", monospace; overflow-x:auto}
+
+figure .highlight [data-line]:before{content:attr(data-line)}
+figure .highlight td{line-height:1.45em;font-size:13px}
+figure .highlight .c{color:#ccc;font-style:italic}
+figure .highlight .cm{color:#ccc;font-style:italic}
+figure .highlight .cp{color:#ccc;font-style:italic}
+figure .highlight .c1{color:#ccc;font-style:italic}
+figure .highlight .cs{color:#ccc;font-weight:bold;font-style:italic}
+figure .highlight .err{color:#dc322f;background:none}
+figure .highlight .k{color:#cb4b16}
+figure .highlight .o{color:#586e75;font-weight:bold}
+figure .highlight .p{color:#586e75}
+figure .highlight .ow{color:#2aa198;font-weight:bold}
+figure .highlight .gd{color:#586e75;background-color:#f3c8c8;display:inline-block}
+figure .highlight .gd .x{color:#586e75;background-color:#f0b4b3;display:inline-block}
+figure .highlight .ge{color:#586e75;font-style:italic}
+figure .highlight .gh{color:#ccc}
+figure .highlight .gi{color:#586e75;background-color:#e3e7c8;display:inline-block}
+figure .highlight .gi .x{color:#586e75;background-color:#cbd396;display:inline-block}
+figure .highlight .gs{color:#586e75;font-weight:bold}
+figure .highlight .gu{color:#6c71c4}
+figure .highlight .kc{color:#859900;font-weight:bold}
+figure .highlight .kd{color:#268bd2}
+figure .highlight .kp{color:#cb4b16;font-weight:bold}
+figure .highlight .kr{color:#d33682;font-weight:bold}
+figure .highlight .kt{color:#2aa198}
+figure .highlight .n{color:#268bd2}
+figure .highlight .na{color:#268bd2}
+figure .highlight .nb{color:#859900}
+figure .highlight .nc{color:#d33682}
+figure .highlight .no{color:#b58900}
+figure .highlight .nl{color:#859900}
+figure .highlight .ne{color:#268bd2;font-weight:bold}
+figure .highlight .nf{color:#268bd2;font-weight:bold}
+figure .highlight .nn{color:#b58900}
+figure .highlight .nt{color:#268bd2;font-weight:bold}
+figure .highlight .nx{color:#b58900 !important}
+figure .highlight .vg{color:#268bd2}
+figure .highlight .vi{color:#268bd2}
+figure .highlight .nv{color:#268bd2}
+figure .highlight .mf{color:#2aa198}
+figure .highlight .m{color:#2aa198}
+figure .highlight .mh{color:#2aa198}
+figure .highlight .mi{color:#2aa198}
+figure .highlight .s{color:#2aa198}
+figure .highlight .sd{color:#2aa198}
+figure .highlight .s2{color:#2aa198}
+figure .highlight .se{color:#dc322f}
+figure .highlight .si{color:#268bd2}
+figure .highlight .sr{color:#2aa198}
+figure .highlight .s1{color:#2aa198}
+figure .highlight div .gd,figure .highlight div .gd .x,figure .highlight div .gi,figure .highlight div .gi .x{display:inline-block;width:100%}
+pre::-webkit-scrollbar,figure .highlight::-webkit-scrollbar{height:.5em;background:rgba(0,0,0,0.15)}
+pre::-webkit-scrollbar-thumb:horizontal,figure .highlight::-webkit-scrollbar-thumb:horizontal{background:rgba(0,0,0,0.15);-webkit-border-radius:4px;border-radius:4px}

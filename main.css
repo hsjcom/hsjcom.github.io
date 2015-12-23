@@ -1,0 +1,271 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  font: 14pt Helvetica-Light, Arial, sans-serif;
+  text-align: center;
+  color: #2C3E50;
+  background-color: #FBFCFC;
+  border-top: #9B59B6 2px solid;
+  margin: auto;
+}
+
+ h1 {
+  font: 54pt Helvetica-Light, Arial, sans-serif;
+  color: #2C3E50;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 { margin: 1em 0; }
+p  { margin: 1em 0; }
+
+a         { color: #9B59B6; text-decoration: none; }
+a:hover   { color: #2C3E50; }
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+#global_footer {
+  padding-bottom: 1em;
+}
+
+
+/*****************************************************************************/
+/*
+/* Mobile
+/*
+/*****************************************************************************/
+
+@media (max-width: 600px) {
+
+  #marin_drawing {
+    display: none;
+  }
+
+  .hi_iam_marin {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+    float: none;
+  }
+
+  .contact img {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+  .hi_iam_marin {
+    text-align: center;
+    margin: auto;
+    padding: 6em 0;
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.marin_usalj {
+  display: inline-block;
+  margin-bottom: 2em;
+  font-size: 110%;
+}
+
+.site {
+  text-align: left;
+  max-width: 90%;
+  width: 36em;
+  margin: 3em auto;
+  line-height: 1.5em;
+}
+
+.site .header {
+  margin-bottom: 2em;
+}
+
+.site .header a {
+  text-decoration: none;
+}
+
+.site .header h1.title {
+  display: inline-block;
+}
+
+.site .header h1.title a {
+  color: #9B59B6;
+}
+
+.site .header h1.title a:hover {
+  color: #2C3E50;
+}
+
+.site .header a.extra {
+  color: #2C3E50;
+  margin-left: 4em;
+}
+
+.site .header a.extra:hover {
+  color: #9B59B6;
+}
+
+.site .meta {
+  color: #aaa;
+}
+
+.site .footer {
+  font-size: 100%;
+  color: #666;
+  text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 4em;
+  padding-top: 3em;
+  overflow: hidden;
+}
+
+.site .footer .contact img {
+  float: left;
+  margin-right: 2em;
+}
+
+.site .footer .contact p {
+  font-size: 12pt;
+  display: inline-block;
+  padding-top: 2em;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+.home_container {
+  padding-top: 1.5em;
+  display: inline-block;
+}
+
+.home_container h1 {
+  font-weight: 100;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.home_container span {
+  color: #92979a;
+  font-size: 20pt;
+}
+
+#marin_drawing {
+  float: left;
+  padding-right: 3em;
+  width: 22%;
+}
+
+.social_icons {
+  padding-bottom: 2em;
+}
+
+.social_icons img {
+  padding: 0 .6em;
+  width: 2.5em;
+}
+
+.social_icons img:hover {
+  opacity: .7;
+}
+
+.hi_iam_marin {
+  color: #2C3E50;
+}
+
+#home_description {
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  font-size: 18pt;
+}
+
+#marin_usalj_home {
+  font-size: 34pt;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+#marin_usalj_home b {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
+
+#marin_usalj_home2 {
+  font-size: 18pt;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1;
+}
+
+#marin_usalj_home2 b {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
+
+.projects h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+}
+
+.posts ul {
+  list-style-type: none;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+
+#post blockquote {
+  font-style: italic;
+  margin: 3em 0;
+  padding: .4em .8em;
+  border-radius: .3em;
+  border: 1px solid #ccc;
+}
+
+#post img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+#post ul, #post ol {
+  margin-left: 1.35em;
+}
+
+#post h1, #post h2, #post h3 {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
