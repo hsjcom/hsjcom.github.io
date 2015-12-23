@@ -22,7 +22,7 @@ body {
 }
 
  h1 {
-  font: 54pt Helvetica-Light, Arial, sans-serif;
+  font: 45pt Helvetica-Light, Arial, sans-serif;
   color: #2C3E50;
   font-weight: lighter;
   text-align: center;
@@ -92,7 +92,7 @@ table {
 }
 
 .site {
-  text-align: left;
+  text-align: center;
   max-width: 90%;
   width: 36em;
   margin: 3em auto;
