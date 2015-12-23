@@ -133,7 +133,10 @@ table {
 }
 
 .site .footer {
-  font-size: 90%;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 100%;
   color: #666;
   text-align: center;
   border-top: 1px solid #eee;
@@ -148,7 +151,7 @@ table {
 }
 
 .site .footer .contact p {
-  font-size: 14pt;
+  font-size: 18pt;
   display: inline-block;
   padding-top: 2em;
 }
@@ -216,7 +219,7 @@ table {
 }
 
 #marin_usalj_home2 {
-  font-size: 18pt;
+  font-size: 20pt;
   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: lighter;
   text-align: center;
