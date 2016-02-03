@@ -75,7 +75,7 @@ table {
   .hi_iam_marin {
     text-align: center;
     margin: auto;
-    padding: 6em 0;
+    padding: 6em;
   }
 }
 
@@ -188,7 +188,7 @@ table {
 }
 
 .social_icons img {
-  padding: 0 .6em;
+  padding: 0.6em;
   width: 2.5em;
 }
 
