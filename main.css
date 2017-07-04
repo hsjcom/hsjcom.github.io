@@ -15,15 +15,15 @@ html, body { height: 100%; }
 body {
   font: 14pt Helvetica-Light, Arial, sans-serif;
   text-align: center;
-  color: #2C3E50;
-  background-color: #FBFCFC;
-  border-top: #9B59B6 2px solid;
+  color: #d7d6dd;
+  background-color: #52575d;
+  border-top: #000000 2px solid;
   margin: auto;
 }
 
  h1 {
   font: 40pt Helvetica-Light, Arial, sans-serif;
-  color: #2C3E50;
+  color: #d7d6dd;
   font-weight: lighter;
   text-align: center;
 }
@@ -31,8 +31,8 @@ body {
 h1 { margin: 1em 0; }
 p  { margin: 1em 0; }
 
-a         { color: #9B59B6; text-decoration: none; }
-a:hover   { color: #2C3E50; }
+a         { color: #d7d6dd; text-decoration: none; }
+a:hover   { color: #d7d6dd; }
 
 table {
   font-size: inherit;
@@ -112,24 +112,24 @@ table {
 }
 
 .site .header h1.title a {
-  color: #9B59B6;
+  color: #d7d6dd;
 }
 
 .site .header h1.title a:hover {
-  color: #2C3E50;
+  color: #d7d6dd;
 }
 
 .site .header a.extra {
-  color: #2C3E50;
+  color: #d7d6dd;
   margin-left: 4em;
 }
 
 .site .header a.extra:hover {
-  color: #9B59B6;
+  color: #d7d6dd;
 }
 
 .site .meta {
-  color: #aaa;
+  color: #d7d6dd;
 }
 
 .site .footer {
@@ -137,9 +137,9 @@ table {
   font-weight: normal;
   line-height: 1;
   font-size: 100%;
-  color: #666;
+  color: #818185;
   text-align: center;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #818185;
   margin-top: 4em;
   padding-top: 3em;
   overflow: hidden;
@@ -173,7 +173,7 @@ table {
 }
 
 .home_container span {
-  color: #92979a;
+  color: #d7d6dd;
   font-size: 20pt;
 }
 
@@ -197,7 +197,7 @@ table {
 }
 
 .hi_iam_marin {
-  color: #2C3E50;
+  color: #d7d6dd;
 }
 
 #home_description {
